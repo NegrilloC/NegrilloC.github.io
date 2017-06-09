@@ -3,100 +3,20 @@
 <!--[if lte IE 9]>
 <html lang="en" class="oldie">
 <![endif]-->
+<head>
+  <link rel="stylesheet" type = "text/css" href="style.css">  
 
-<script>
-
-$(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
-
-
-</script>
-<style>
-
-body{
-    background-color: black;
-  }
-}
-#page{
-    background-color: white;
-}
-#intro{
-    background-image: url("https://c1.staticflickr.com/3/2883/9726065738_e286c0e760_b.jpg");
-    background-color: #FFEB45;
-    background-size: 100%;
-    color:
-      white;
-    font-family: 'Special Elite', cursive;
-    padding-top:50px;
-    padding-bottom:50px;
   
-}
-#portfolio{
-  
-  padding-top:50px;}
+    <!--[if gt IE 9]><!-->
+  <html lang="en">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
-#connect{
-  padding-top:50px;
-padding-bottom:100px;}
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 
-.project-block{
-  background-color: gray;
-  img-rounded
-}
-#end{
-  margin-bottom: 60px;
-}
-.body{
-    background-color: white;
-    background-size: 100%;
-    color: black;
-    font-family: 'Special Elite', cursive;
-}
-
-img.resize{
-   max-width:10%;
-}
-.icon-resize{
-  max-width: 64px;
-  max-height: 64px;
-}
-.head{
-    margin: auto;
-}
-.row{
-  margin: auto;
-}
-
-
-.well{
- background-color: black;   
-}
-.project-icon {
-    margin: auto;
-    max-width:10%;
-  }
-
-</style>
-<!--[if gt IE 9]><!-->
-<html lang="en">
-<!--<![endif]-->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-
-<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<script type = "text/javascript" src="pageScroll.js"></script>
 
 
 <nav class="navbar navbar-default navbar-fixed-top">
