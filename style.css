@@ -9,22 +9,21 @@ body{
 }
 #intro{
     background-image: url("https://c1.staticflickr.com/3/2883/9726065738_e286c0e760_b.jpg");
-    background-color: #FFEB45;
     background-size: 100%;
     color:
       white;
     font-family: 'Special Elite', cursive;
-    padding-top:50px;
-    padding-bottom:50px;
   
 }
-#portfolio{
-  
-  padding-top:50px;}
+.section{
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.footer{
+  padding-bottom:100px;
+}
 
-#connect{
-  padding-top:50px;
-padding-bottom:100px;}
+
 
 .project-block{
   background-color: gray;
@@ -62,5 +61,21 @@ img.resize{
     margin: auto;
     max-width:10%;
   }
+.img-circle {
+  border-radius: 50%;
+}
+.prof-pos{
+  padding-top: 5%;
+
+}
+a:link {
+color: #A9A9A9;
+}
+a:visited {
+color: #A9A9A9;
+}
+a:hover {
+color: #A9A9A9;
+}
 
 </style>
